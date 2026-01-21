@@ -24,5 +24,3 @@
 
 
 
-
-F:\Kyrsach2\UltimateWalletFinal\UltimateWalletFinal\Resources\Images
