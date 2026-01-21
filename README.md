@@ -25,4 +25,4 @@
 
 
 
-https://vk.com/s/v1/doc/gef7FQfbjTBB7cudw1uZQt8oocZa0fRE6sLOOycuiUOAQ2fpIWM
+F:\Kyrsach2\UltimateWalletFinal\UltimateWalletFinal\Resources\Images
