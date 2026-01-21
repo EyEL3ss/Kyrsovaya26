@@ -1,0 +1,7 @@
+<api type="release" assembly-name="ZXing.Net.MAUI" mvid="95138d599de4443594717fc41452861a">
+  <module assembly-name="ZXing.Net.MAUI" mvid="95138d599de4443594717fc41452861a" mvid-bytes="WY0TleSdNUSUcX/EFFKGGg==">
+    <types-scratch>
+      <entry key="crc6477b0797571f03227/FrameAnalyzer" java-name="crc6477b0797571f03227/FrameAnalyzer" managed-type-name="ZXing.Net.Maui.FrameAnalyzer" token="33554458" />
+    </types-scratch>
+  </module>
+</api>

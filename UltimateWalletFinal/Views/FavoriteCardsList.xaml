@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UltimateWalletFinal.Views.FavoriteCardsList"
+             Title="FavoriteCardsList">
+    <ScrollView>
+        <VerticalStackLayout Spacing="15" Padding="20">
+
+            <Label x:Name="countLabel"
+                   FontSize="16"
+                   FontAttributes="Bold"/>
+
+            <CollectionView x:Name="favoritesCollectionView">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Border BackgroundColor="#FFF8E1"
+                               Padding="15"
+                               Margin="0,5">
+                            <VerticalStackLayout Spacing="10">
+                                <Grid ColumnDefinitions="*,Auto">
+                                    <Label Text="{Binding CardName}"
+                                           FontSize="16"
+                                           FontAttributes="Bold"
+                                           TextColor="#1565C0"
+                                           Grid.Column="0"/>
+                                </Grid>
+
+                                <Label Text="Магазин"
+                                       FontSize="14"
+                                       TextColor="Gray"/>
+
+                                <Label Text="{Binding Shop.ShopName}"
+                                       FontSize="14"
+                                       TextColor="Green"/>
+
+                                <HorizontalStackLayout Spacing="10">
+                                    <Label Text="Категория:"
+                                           FontSize="12"
+                                           TextColor="Gray"/>
+                                    <Label Text="{Binding Category.CategoryName}"
+                                           FontSize="12"/>
+                                </HorizontalStackLayout>
+                            </VerticalStackLayout>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

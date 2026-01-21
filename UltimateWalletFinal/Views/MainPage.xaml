@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UltimateWalletFinal.MainPage"
+             Title="Окно входа ">
+
+    <VerticalStackLayout Spacing="20" Padding="30"
+                        VerticalOptions="Center">
+
+        <!-- Заголовок -->
+        <Label Text="Ultimate Wallet" 
+               FontSize="32" 
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               TextColor="#2196F3" />
+
+        <!-- Поля ввода -->
+        <VerticalStackLayout Spacing="15">
+
+            <!-- Логин -->
+            <Entry x:Name="loginEntry" 
+                   Placeholder="Логин"
+                   TextChanged="OnLoginTextChanged"
+                   HorizontalOptions="Fill"
+                   HeightRequest="50" />
+
+            <!-- Пароль -->
+            <Entry x:Name="passwordEntry" 
+                   Placeholder="Пароль"
+                   IsPassword="True"
+                   TextChanged="OnPasswordTextChanged"
+                   Completed="OnPasswordCompleted"
+                   HorizontalOptions="Fill"
+                   HeightRequest="50" />
+
+            <!-- Кнопка входа -->
+            <Button x:Name="loginButton"
+                    Text="Войти"
+                    Clicked="OnLoginClicked"
+                    BackgroundColor="#2196F3"
+                    TextColor="White"
+                    CornerRadius="10"
+                    HeightRequest="50"
+                    Margin="0,20,0,0" />
+
+            <!-- Индикатор загрузки -->
+            <ActivityIndicator x:Name="loadingIndicator"
+                               IsVisible="False"
+                               IsRunning="False"
+                               Color="#2196F3"
+                               HorizontalOptions="Center"
+                               HeightRequest="30" />
+
+        </VerticalStackLayout>
+
+        <!-- Дополнительные кнопки -->
+        <VerticalStackLayout Spacing="10" Margin="0,30,0,0">
+
+            <Button Text="Создать аккаунт"
+                    Clicked="OnRegistrationClicked"
+                    TextColor="#2196F3"
+                    BackgroundColor="Transparent"
+                    BorderColor="#2196F3"
+                    BorderWidth="1"
+                    CornerRadius="10"
+                    HeightRequest="40" />
+            
+
+            <Button Text="Забыли пароль?"
+                    Clicked="OnForgotPasswordClicked"
+                    TextColor="#757575"
+                    BackgroundColor="Transparent"
+                    HeightRequest="40" />
+
+        </VerticalStackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>

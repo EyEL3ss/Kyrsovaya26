@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="UltimateWalletFinal" mvid="4a8e9620db9a41069fa9749cf72a982e">
+  <java-to-managed>
+    <entry java-name="crc64583b27beb74af6a7/MainActivity" managed-name="UltimateWalletFinal.MainActivity, UltimateWalletFinal" managed-type-token-id="33554452" />
+    <entry java-name="crc64583b27beb74af6a7/MainApplication" managed-name="UltimateWalletFinal.MainApplication, UltimateWalletFinal" managed-type-token-id="33554453" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc64583b27beb74af6a7/MainActivity" managed-name="UltimateWalletFinal.MainActivity, UltimateWalletFinal" managed-type-token-id="33554452" />
+    <entry java-name="crc64583b27beb74af6a7/MainApplication" managed-name="UltimateWalletFinal.MainApplication, UltimateWalletFinal" managed-type-token-id="33554453" />
+  </managed-to-java>
+</api>

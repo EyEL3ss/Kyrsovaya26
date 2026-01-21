@@ -1,0 +1,165 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.VerifyReferenceTrimCompatibility = 
+build_property.VerifyReferenceAotCompatibility = 
+build_property.MauiXamlNoWarn = 
+build_property.EnableMauiXamlDiagnostics = 
+build_property.MauiXamlLineInfo = 
+build_property.Configuration = Release
+build_property.TargetFramework = net10.0-android
+build_property.TargetFramework = net10.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.RootNamespace = UltimateWalletFinal
+build_property.ProjectDir = F:\Kyrsach2\UltimateWalletFinal\UltimateWalletFinal\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[F:/Kyrsach2/UltimateWalletFinal/UltimateWalletFinal/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UltimateWalletFinal.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+build_metadata.AdditionalFiles.Inflator = XamlC
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[F:/Kyrsach2/UltimateWalletFinal/UltimateWalletFinal/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UltimateWalletFinal.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+build_metadata.AdditionalFiles.Inflator = XamlC
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[F:/Kyrsach2/UltimateWalletFinal/UltimateWalletFinal/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UltimateWalletFinal.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.Inflator = XamlC
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[F:/Kyrsach2/UltimateWalletFinal/UltimateWalletFinal/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UltimateWalletFinal.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.Inflator = XamlC
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[F:/Kyrsach2/UltimateWalletFinal/UltimateWalletFinal/Views/AddCardFromScanPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UltimateWalletFinal.Views.AddCardFromScanPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddCardFromScanPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddCardFromScanPage.xaml
+build_metadata.AdditionalFiles.Inflator = XamlC
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[F:/Kyrsach2/UltimateWalletFinal/UltimateWalletFinal/Views/AddCardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UltimateWalletFinal.Views.AddCardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddCardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddCardPage.xaml
+build_metadata.AdditionalFiles.Inflator = XamlC
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[F:/Kyrsach2/UltimateWalletFinal/UltimateWalletFinal/Views/CardDetail.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UltimateWalletFinal.Views.CardDetail.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CardDetail.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CardDetail.xaml
+build_metadata.AdditionalFiles.Inflator = XamlC
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[F:/Kyrsach2/UltimateWalletFinal/UltimateWalletFinal/Views/FavoriteCardsList.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UltimateWalletFinal.Views.FavoriteCardsList.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\FavoriteCardsList.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\FavoriteCardsList.xaml
+build_metadata.AdditionalFiles.Inflator = XamlC
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[F:/Kyrsach2/UltimateWalletFinal/UltimateWalletFinal/Views/ListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UltimateWalletFinal.Views.ListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ListPage.xaml
+build_metadata.AdditionalFiles.Inflator = XamlC
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[F:/Kyrsach2/UltimateWalletFinal/UltimateWalletFinal/Views/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UltimateWalletFinal.Views.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MainPage.xaml
+build_metadata.AdditionalFiles.Inflator = XamlC
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[F:/Kyrsach2/UltimateWalletFinal/UltimateWalletFinal/Views/RegistrationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UltimateWalletFinal.Views.RegistrationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RegistrationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RegistrationPage.xaml
+build_metadata.AdditionalFiles.Inflator = XamlC
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[F:/Kyrsach2/UltimateWalletFinal/UltimateWalletFinal/Views/ScanQRXashPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UltimateWalletFinal.Views.ScanQRXashPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ScanQRXashPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ScanQRXashPage.xaml
+build_metadata.AdditionalFiles.Inflator = XamlC
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[F:/Kyrsach2/UltimateWalletFinal/UltimateWalletFinal/Views/TestScan.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UltimateWalletFinal.Views.TestScan.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TestScan.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TestScan.xaml
+build_metadata.AdditionalFiles.Inflator = XamlC
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 

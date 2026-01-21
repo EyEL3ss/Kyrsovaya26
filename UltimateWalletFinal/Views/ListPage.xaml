@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UltimateWalletFinal.Views.ListPage"
+             Title="Главное окно">
+    <RefreshView x:Name="refreshView"
+                 IsRefreshing="False"
+                 RefreshColor="#2196F3"
+                 Refreshing="OnRefreshing">
+
+        <ScrollView>
+            <VerticalStackLayout Spacing="15" Padding="10">
+
+                <!-- Приветствие -->
+                <Border StrokeShape="RoundRectangle 10" Padding="15"
+                       BackgroundColor="#E3F2FD">
+                    <VerticalStackLayout>
+                        <Label Text="Добро пожаловать!"
+                               FontSize="18"
+                               FontAttributes="Bold"
+                               TextColor="#2196F3" />
+                        <Label x:Name="userGreetingLabel"
+                               FontSize="14"
+                               TextColor="#1565C0" />
+                        <Label x:Name="cardsCountLabel"
+                               FontSize="12"
+                               TextColor="#5C6BC0" />
+                    </VerticalStackLayout>
+                </Border>
+                <SearchBar x:Name="searchBar"
+           Placeholder="Поиск по названию карты..."
+           TextChanged="OnSearchTextChanged"
+           CancelButtonColor="#2196F3" />
+                <!-- Фильтры и поиск -->
+                <Grid RowDefinitions="Auto, *, Auto" 
+      ColumnDefinitions="*, *">
+                    <VerticalStackLayout Spacing="10">
+
+                        
+
+                        <HorizontalStackLayout Spacing="10">
+                            <Button Text="Избранные"
+                                    Clicked="OnFavoritesClicked"
+                                    CornerRadius="10"
+
+TextColor="White"
+FontSize="10"
+HeightRequest="35" />
+
+                            <Button Text="Добавить"
+                                    Clicked="OnAddCardClicked"
+                                    CornerRadius="10"
+TextColor="White"
+FontSize="10"
+HeightRequest="35"/>
+                        </HorizontalStackLayout>
+                        <Button Text="Сортировка"
+                                    Clicked="OnSortClicked" CornerRadius="10" TextColor="White"
+FontSize="10"
+HeightRequest="35" />
+                        <Button Text="test"
+                                    Clicked="testpagenavi"
+                                    CornerRadius="10"
+TextColor="White"
+FontSize="10"
+HeightRequest="35"/>
+                    </VerticalStackLayout>
+                </Grid>
+
+                <!-- Индикатор загрузки -->
+                <ActivityIndicator x:Name="loadingIndicator"
+                                   IsVisible="False"
+                                   IsRunning="False"
+                                   Color="#2196F3"
+                                   HorizontalOptions="Center"
+                                   HeightRequest="50" />
+
+                <!-- Сообщение если нет карт -->
+                <Border x:Name="emptyStateFrame"
+                       IsVisible="False"
+                       Padding="20"
+                       StrokeShape="RoundRectangle 10"
+                       BackgroundColor="#FFF3E0">
+                    <VerticalStackLayout HorizontalOptions="Center">
+                        <Label Text="📭"
+                               FontSize="40"
+                               HorizontalOptions="Center" />
+                        <Label Text="У вас пока нет карт"
+                               FontSize="16"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"
+                               TextColor="#EF6C00" />
+                        <Label Text="Нажмите 'Добавить', чтобы создать первую карту"
+                               FontSize="12"
+                               HorizontalOptions="Center"
+                               TextColor="#EF6C00"
+                               HorizontalTextAlignment="Center" />
+                        <Button Text="Добавить первую карту"
+                                Clicked="OnAddCardClicked"
+                                BackgroundColor="#FF9800"
+                                TextColor="White"
+                                CornerRadius="10"
+                                HeightRequest="40" />
+                    </VerticalStackLayout>
+                </Border>
+
+                <!-- Список карт -->
+                <CollectionView x:Name="cardsCollectionView"
+                                SelectionMode="None"
+                                ItemsLayout="VerticalList"
+                                VerticalOptions="FillAndExpand">
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Border Padding="0" 
+                                   StrokeShape="RoundRectangle 10"
+                                   Margin="0,0,0,10"
+                                   BackgroundColor="White">
+
+
+                                <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto" 
+                                      ColumnDefinitions="*,Auto"
+                                      Padding="20">
+                                    <!-- Верхняя часть: Название и избранное -->
+                                    <Label Grid.Row="0" Grid.Column="0"
+                                           Text="{Binding CardName}"
+                                           FontSize="18"
+                                           FontAttributes="Bold"
+                                           TextColor="#212121" />
+                                    <Button Grid.Row="0" Grid.Column="1"
+                                            Text="{Binding IsFavorite}"
+                                            Clicked="OnFavoritesClicked"
+                                            BackgroundColor="Transparent"
+                                            TextColor="#FF4081"
+                                            FontSize="20"
+                                            WidthRequest="40"
+                                            HeightRequest="40"
+                                            Padding="0" />
+                                    <!-- Магазин и категория -->
+                                    <Label Grid.Row="3" Grid.Column="0" Text="{Binding Shop.ShopName, StringFormat='Магазин: {0}'}"
+                                               FontSize="12"
+                                               TextColor="#757575" />
+                                    <Label Grid.Row="4" Grid.Column="0" Text="{Binding Category.CategoryName, StringFormat='Категория: {0}'}"
+                                               FontSize="12"
+                                               TextColor="#757575" />
+                                        <!-- Кнопки действий -->
+                                    <HorizontalStackLayout Grid.Row="5" Grid.Column="0"
+                                                           Grid.ColumnSpan="0"
+                                                           Spacing="20"
+                                                           Margin="0,35,0,0">
+                                        
+                                        <Button Text="Подробнее"
+                                                Clicked="OnDetailsClicked"
+                                                BackgroundColor="#757575"
+                                                CornerRadius="10"
+                                                
+                                                TextColor="White"
+                                                FontSize="10"
+                                                HorizontalOptions="FillAndExpand"
+                                                HeightRequest="35" />
+                                        <Button Grid.Row="1" Grid.Column="2"
+Text="Удалить"
+Clicked="OnDeleteCardClicked"
+BackgroundColor="#FFEBEE"
+TextColor="#F44336"
+CornerRadius="10"
+FontSize="10"
+HorizontalOptions="FillAndExpand"
+HeightRequest="35"/>
+
+                                    </HorizontalStackLayout>
+                                    
+                                    <!-- Gesture Recognizer для нажатия на карточку -->
+                                    <Grid.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="OnCardTapped" />
+                                    </Grid.GestureRecognizers>
+
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+
+                </CollectionView>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+    </RefreshView>
+</ContentPage>

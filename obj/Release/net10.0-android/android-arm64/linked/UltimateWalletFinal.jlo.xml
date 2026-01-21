@@ -1,0 +1,15 @@
+<api>
+  <jcw-types>
+    <type name="MainActivity" package="crc64583b27beb74af6a7" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6488302ad6e9e4df1a.MauiAppCompatActivity" partial_assembly_qualified_name="UltimateWalletFinal.MainActivity, UltimateWalletFinal">
+      <constructors>
+        <constructor name="MainActivity" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+        <constructor name="MainActivity" method="n_.ctor:(I)V:" jni_signature="(I)V" managed_parameters="System.Int32, System.Private.CoreLib" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+    </type>
+    <type name="MainApplication" package="crc64583b27beb74af6a7" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6488302ad6e9e4df1a.MauiApplication" is_application="True" partial_assembly_qualified_name="UltimateWalletFinal.MainApplication, UltimateWalletFinal" application_constructor="MainApplication" />
+  </jcw-types>
+  <acw-types partial-assembly-name="UltimateWalletFinal" module-name="UltimateWalletFinal.dll">
+    <type assembly-qualified-name="UltimateWalletFinal.MainActivity, UltimateWalletFinal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="ultimatewalletfinal.MainActivity" java-key="crc64583b27beb74af6a7.MainActivity" managed-key="UltimateWalletFinal.MainActivity" partial-assembly-qualified-name="UltimateWalletFinal.MainActivity, UltimateWalletFinal" />
+    <type assembly-qualified-name="UltimateWalletFinal.MainApplication, UltimateWalletFinal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="ultimatewalletfinal.MainApplication" java-key="crc64583b27beb74af6a7.MainApplication" managed-key="UltimateWalletFinal.MainApplication" partial-assembly-qualified-name="UltimateWalletFinal.MainApplication, UltimateWalletFinal" />
+  </acw-types>
+</api>

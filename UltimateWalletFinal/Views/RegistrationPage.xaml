@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UltimateWalletFinal.Views.RegistrationPage"
+             Title="Окно регистрации ">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="30,40,30,30">
+
+            <!-- Заголовок -->
+            <Label Text="Создание аккаунта" 
+                   FontSize="28" 
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="#2196F3" />
+
+            <!-- Форма регистрации -->
+            <Frame Padding="20" CornerRadius="15"
+                   BackgroundColor="#F5F5F5">
+                <VerticalStackLayout Spacing="15">
+
+                    <!-- Логин -->
+                    <Label Text="Логин*" FontSize="14" />
+                    <Entry x:Name="loginEntry" 
+                           Placeholder="Придумайте логин"
+                           TextChanged="OnLoginTextChanged" />
+                    <Label x:Name="loginErrorLabel" 
+                           Text="" 
+                           FontSize="12" 
+                           TextColor="Red"
+                           IsVisible="False" />
+
+                    <!-- Пароль -->
+                    <Label Text="Пароль*" FontSize="14" />
+                    <Entry x:Name="passwordEntry" 
+                           Placeholder="Придумайте пароль"
+                           IsPassword="True"
+                           TextChanged="OnPasswordTextChanged" />
+                    <Label x:Name="passwordErrorLabel" 
+                           Text="" 
+                           FontSize="12" 
+                           TextColor="Red"
+                           IsVisible="False" />
+
+                    <!-- Подтверждение пароля -->
+                    <Label Text="Подтвердите пароль*" FontSize="14" />
+                    <Entry x:Name="confirmPasswordEntry" 
+                           Placeholder="Повторите пароль"
+                           IsPassword="True"
+                           TextChanged="OnConfirmPasswordTextChanged" />
+                    <Label x:Name="confirmPasswordErrorLabel" 
+                           Text="" 
+                           FontSize="12" 
+                           TextColor="Red"
+                           IsVisible="False" />
+
+
+                    <!-- Кнопка регистрации -->
+                    <Button x:Name="registerButton"
+                            Text="Зарегистрироваться"
+                            Clicked="OnRegisterClicked"
+                            BackgroundColor="#4CAF50"
+                            TextColor="White"
+                            CornerRadius="10"
+                            Margin="0,20,0,0" />
+
+                    <!-- Индикатор загрузки -->
+                    <ActivityIndicator x:Name="loadingIndicator"
+                                       IsVisible="False"
+                                       IsRunning="False"
+                                       Color="#4CAF50"
+                                       HorizontalOptions="Center"
+                                       Margin="0,10,0,0" />
+
+                    <!-- Ссылка на вход -->
+                    <Button Text="Уже есть аккаунт? Войти"
+                            Clicked="OnBackToLoginClicked"
+                            TextColor="#2196F3"
+                            BackgroundColor="Transparent"
+                            Margin="0,10,0,0" />
+
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Правила -->
+            <Frame Padding="15" CornerRadius="10"
+                   BackgroundColor="#E8F5E9"
+                   IsVisible="False">
+                <VerticalStackLayout>
+                    <Label Text="Требования к паролю:" 
+                           FontSize="12" 
+                           FontAttributes="Bold"
+                           TextColor="#388E3C" />
+                    <Label Text="• Минимум 6 символов" 
+                           FontSize="11" 
+                           TextColor="#388E3C" />
+                    <Label Text="• Рекомендуется использовать буквы и цифры" 
+                           FontSize="11" 
+                           TextColor="#388E3C" />
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

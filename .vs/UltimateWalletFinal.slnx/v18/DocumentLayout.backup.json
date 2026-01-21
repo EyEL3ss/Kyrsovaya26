@@ -1,0 +1,788 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Kyrsach2\\UltimateWalletFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\views\\addcardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\views\\addcardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\views\\addcardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\views\\addcardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\classes\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\classes\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\views\\addcardfromscanpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\views\\addcardfromscanpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\views\\scanqrxashpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\views\\scanqrxashpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\views\\listpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\views\\listpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\views\\scanqrxashpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\views\\scanqrxashpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\views\\testscan.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\views\\testscan.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\views\\testscan.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\views\\testscan.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\views\\addcardfromscanpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\views\\addcardfromscanpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\views\\listpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\views\\listpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\classes\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\classes\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\ultimatewalletfinal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\ultimatewalletfinal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\classes\\favoritecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\classes\\favoritecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\views\\favoritecardslist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\views\\favoritecardslist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\views\\carddetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\views\\carddetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\views\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\views\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\views\\carddetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\views\\carddetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\platforms\\maccatalyst\\appdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\platforms\\maccatalyst\\appdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\platforms\\ios\\appdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\platforms\\ios\\appdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\platforms\\ios\\info.plist||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\platforms\\ios\\info.plist||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\services\\database\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\services\\database\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\services\\database\\favoriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\services\\database\\favoriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\views\\favoritecardslist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\views\\favoritecardslist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\converters\\favoriteconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\converters\\favoriteconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\services\\database\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\services\\database\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\services\\database\\shopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\services\\database\\shopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\services\\database\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\services\\database\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\converters\\favoritecolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\converters\\favoritecolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\services\\database\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\services\\database\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\services\\database\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\services\\database\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\views\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\views\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\classes\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\classes\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\classes\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\classes\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\classes\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\classes\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|f:\\kyrsach2\\ultimatewalletfinal\\ultimatewalletfinal\\classes\\cardimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA89AE8-703A-DDFD-CA31-5DB46CAA732B}|UltimateWalletFinal\\UltimateWalletFinal.csproj|solutionrelative:ultimatewalletfinal\\classes\\cardimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddCardFromScanPage.xaml.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\AddCardFromScanPage.xaml.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Views\\AddCardFromScanPage.xaml.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\AddCardFromScanPage.xaml.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Views\\AddCardFromScanPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:05:50.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ScanQRXashPage.xaml",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\ScanQRXashPage.xaml",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Views\\ScanQRXashPage.xaml",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\ScanQRXashPage.xaml",
+              "RelativeToolTip": "UltimateWalletFinal\\Views\\ScanQRXashPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-20T04:41:55.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ListPage.xaml.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\ListPage.xaml.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Views\\ListPage.xaml.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\ListPage.xaml.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Views\\ListPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T22:41:01.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScanQRXashPage.xaml.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\ScanQRXashPage.xaml.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Views\\ScanQRXashPage.xaml.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\ScanQRXashPage.xaml.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Views\\ScanQRXashPage.xaml.cs",
+              "ViewState": "AgIAAIIBAAAAAAAAAADwv6cBAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:14:26.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Users.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Classes\\Users.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Classes\\Users.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Classes\\Users.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Classes\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T17:38:10.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddCardPage.xaml",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\AddCardPage.xaml",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Views\\AddCardPage.xaml",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\AddCardPage.xaml",
+              "RelativeToolTip": "UltimateWalletFinal\\Views\\AddCardPage.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAEYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-15T14:30:42.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddCardPage.xaml.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\AddCardPage.xaml.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Views\\AddCardPage.xaml.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\AddCardPage.xaml.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Views\\AddCardPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T21:16:26.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Views\\MainPage.xaml.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\MainPage.xaml.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Views\\MainPage.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwC4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T17:52:24.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TestScan.xaml.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\TestScan.xaml.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Views\\TestScan.xaml.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\TestScan.xaml.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Views\\TestScan.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:23:10.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TestScan.xaml",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\TestScan.xaml",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Views\\TestScan.xaml",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\TestScan.xaml",
+              "RelativeToolTip": "UltimateWalletFinal\\Views\\TestScan.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-20T07:21:26.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ListPage.xaml",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\ListPage.xaml",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Views\\ListPage.xaml",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\ListPage.xaml",
+              "RelativeToolTip": "UltimateWalletFinal\\Views\\ListPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-14T22:40:37.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Card.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Classes\\Card.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Classes\\Card.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Classes\\Card.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Classes\\Card.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T17:37:09.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddCardFromScanPage.xaml",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\AddCardFromScanPage.xaml",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Views\\AddCardFromScanPage.xaml",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\AddCardFromScanPage.xaml",
+              "RelativeToolTip": "UltimateWalletFinal\\Views\\AddCardFromScanPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-20T07:05:47.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "F:\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAD0HAAAAAAAAAAApwFEHAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-01-21T01:21:47.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FavoriteCardsList.xaml.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\FavoriteCardsList.xaml.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Views\\FavoriteCardsList.xaml.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\FavoriteCardsList.xaml.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Views\\FavoriteCardsList.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T01:30:16.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UltimateWalletFinal.csproj",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\UltimateWalletFinal.csproj",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\UltimateWalletFinal.csproj",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\UltimateWalletFinal.csproj",
+              "RelativeToolTip": "UltimateWalletFinal\\UltimateWalletFinal.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-21T01:36:00.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FavoriteCard.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Classes\\FavoriteCard.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Classes\\FavoriteCard.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Classes\\FavoriteCard.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Classes\\FavoriteCard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T17:37:48.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CardDetail.xaml.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\CardDetail.xaml.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Views\\CardDetail.xaml.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\CardDetail.xaml.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Views\\CardDetail.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T11:24:38.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Views\\MainPage.xaml",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\MainPage.xaml",
+              "RelativeToolTip": "UltimateWalletFinal\\Views\\MainPage.xaml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAD4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-14T17:36:15.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RegistrationPage.xaml.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\RegistrationPage.xaml.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Views\\RegistrationPage.xaml.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\RegistrationPage.xaml.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Views\\RegistrationPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T08:53:57.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CardDetail.xaml",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\CardDetail.xaml",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Views\\CardDetail.xaml",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\CardDetail.xaml",
+              "RelativeToolTip": "UltimateWalletFinal\\Views\\CardDetail.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAlwB8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-15T14:30:55.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MainApplication.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Platforms\\Android\\MainApplication.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Platforms\\Android\\MainApplication.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Platforms\\Android\\MainApplication.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Platforms\\Android\\MainApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T04:38:56.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\MauiProgram.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\MauiProgram.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T17:48:34.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Info.plist",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Platforms\\iOS\\Info.plist",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Platforms\\iOS\\Info.plist",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Platforms\\iOS\\Info.plist",
+              "RelativeToolTip": "UltimateWalletFinal\\Platforms\\iOS\\Info.plist",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-20T05:14:32.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppDelegate.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Platforms\\iOS\\AppDelegate.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Platforms\\iOS\\AppDelegate.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Platforms\\iOS\\AppDelegate.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Platforms\\iOS\\AppDelegate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T05:32:20.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Platforms\\Windows\\App.xaml.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Platforms\\Windows\\App.xaml.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Platforms\\Windows\\App.xaml.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Platforms\\Windows\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T05:35:42.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AppDelegate.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Platforms\\MacCatalyst\\AppDelegate.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Platforms\\MacCatalyst\\AppDelegate.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Platforms\\MacCatalyst\\AppDelegate.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Platforms\\MacCatalyst\\AppDelegate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T05:35:57.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "FavoriteCardsList.xaml",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\FavoriteCardsList.xaml",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Views\\FavoriteCardsList.xaml",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\FavoriteCardsList.xaml",
+              "RelativeToolTip": "UltimateWalletFinal\\Views\\FavoriteCardsList.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-20T01:28:08.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "App.xaml",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\App.xaml",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\App.xaml",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\App.xaml",
+              "RelativeToolTip": "UltimateWalletFinal\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-16T11:22:15.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T04:38:53.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Resources\\Styles\\Styles.xaml",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "UltimateWalletFinal\\Resources\\Styles\\Styles.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-16T11:33:39.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CardService.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Services\\Database\\CardService.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Services\\Database\\CardService.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Services\\Database\\CardService.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Services\\Database\\CardService.cs",
+              "ViewState": "AgIAABgBAAAAAAAAAAAYwI8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T23:07:18.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FavoriteService.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Services\\Database\\FavoriteService.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Services\\Database\\FavoriteService.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Services\\Database\\FavoriteService.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Services\\Database\\FavoriteService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAcwBwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T01:42:57.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T23:39:31.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DbConnection.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Services\\Database\\DbConnection.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Services\\Database\\DbConnection.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Services\\Database\\DbConnection.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Services\\Database\\DbConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T17:01:38.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Services\\Database\\UserService.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Services\\Database\\UserService.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Services\\Database\\UserService.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Services\\Database\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAM8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T23:07:04.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "FavoriteConverter.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Converters\\FavoriteConverter.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Converters\\FavoriteConverter.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Converters\\FavoriteConverter.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Converters\\FavoriteConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T01:41:41.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ShopService.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Services\\Database\\ShopService.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Services\\Database\\ShopService.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Services\\Database\\ShopService.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Services\\Database\\ShopService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T23:07:26.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FavoriteColorConverter.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Converters\\FavoriteColorConverter.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Converters\\FavoriteColorConverter.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Converters\\FavoriteColorConverter.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Converters\\FavoriteColorConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T01:41:52.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DataBaseService.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Services\\Database\\DataBaseService.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Services\\Database\\DataBaseService.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Services\\Database\\DataBaseService.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Services\\Database\\DataBaseService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAIBZwAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T17:53:56.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Services\\Database\\CategoryService.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Services\\Database\\CategoryService.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Services\\Database\\CategoryService.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Services\\Database\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T23:07:41.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "RegistrationPage.xaml",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\RegistrationPage.xaml",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Views\\RegistrationPage.xaml",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Views\\RegistrationPage.xaml",
+              "RelativeToolTip": "UltimateWalletFinal\\Views\\RegistrationPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-15T08:53:40.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Resources\\Styles\\Colors.xaml",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Resources\\Styles\\Colors.xaml",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Resources\\Styles\\Colors.xaml",
+              "RelativeToolTip": "UltimateWalletFinal\\Resources\\Styles\\Colors.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-16T11:23:28.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Classes\\UserRole.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Classes\\UserRole.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Classes\\UserRole.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Classes\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T17:38:03.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Shop.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Classes\\Shop.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Classes\\Shop.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Classes\\Shop.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Classes\\Shop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T17:37:36.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Category.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Classes\\Category.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Classes\\Category.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Classes\\Category.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Classes\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T17:37:28.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CardImage.cs",
+              "DocumentMoniker": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Classes\\CardImage.cs",
+              "RelativeDocumentMoniker": "UltimateWalletFinal\\Classes\\CardImage.cs",
+              "ToolTip": "F:\\Kyrsach2\\UltimateWalletFinal\\UltimateWalletFinal\\Classes\\CardImage.cs",
+              "RelativeToolTip": "UltimateWalletFinal\\Classes\\CardImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T17:37:18.327Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

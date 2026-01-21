@@ -1,0 +1,41 @@
+<api>
+  <jcw-types>
+    <type name="BarcodeAnalyzer" package="crc64bcce8c39838b345c" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="BarcodeScanning.BarcodeAnalyzer, BarcodeScanning.Native.Maui">
+      <implemented_interfaces>
+        <interface name="androidx.camera.core.ImageAnalysis.Analyzer" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="BarcodeAnalyzer" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="getDefaultTargetResolution" method="n_getDefaultTargetResolution:()Landroid/util/Size;:GetGetDefaultTargetResolutionHandler:AndroidX.Camera.Core.ImageAnalysis+IAnalyzer, Xamarin.AndroidX.Camera.Core" jni_signature="()Landroid/util/Size;" retval="android.util.Size" is_dynamically_registered="True" />
+        <method name="getTargetCoordinateSystem" method="n_getTargetCoordinateSystem:()I:GetGetTargetCoordinateSystemHandler:AndroidX.Camera.Core.ImageAnalysis+IAnalyzer, Xamarin.AndroidX.Camera.Core" jni_signature="()I" retval="int" is_dynamically_registered="True" />
+        <method name="analyze" method="n_analyze:(Landroidx/camera/core/ImageProxy;)V:GetAnalyze_Landroidx_camera_core_ImageProxy_Handler:AndroidX.Camera.Core.ImageAnalysis+IAnalyzerInvoker, Xamarin.AndroidX.Camera.Core" jni_signature="(Landroidx/camera/core/ImageProxy;)V" params="androidx.camera.core.ImageProxy p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="updateTransform" method="n_updateTransform:(Landroid/graphics/Matrix;)V:GetUpdateTransform_Landroid_graphics_Matrix_Handler:AndroidX.Camera.Core.ImageAnalysis+IAnalyzer, Xamarin.AndroidX.Camera.Core" jni_signature="(Landroid/graphics/Matrix;)V" params="android.graphics.Matrix p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="BarcodeView" package="crc64bcce8c39838b345c" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="androidx.coordinatorlayout.widget.CoordinatorLayout" partial_assembly_qualified_name="BarcodeScanning.BarcodeView, BarcodeScanning.Native.Maui">
+      <constructors>
+        <constructor name="BarcodeView" method="n_.ctor:(Landroid/content/Context;)V:" jni_signature="(Landroid/content/Context;)V" managed_parameters="Android.Content.Context, Mono.Android" params="android.content.Context p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <constructor name="BarcodeView" method="n_.ctor:(Landroid/content/Context;Landroid/util/AttributeSet;)V:" jni_signature="(Landroid/content/Context;Landroid/util/AttributeSet;)V" managed_parameters="Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android" params="android.content.Context p0, android.util.AttributeSet p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <constructor name="BarcodeView" method="n_.ctor:(Landroid/content/Context;Landroid/util/AttributeSet;I)V:" jni_signature="(Landroid/content/Context;Landroid/util/AttributeSet;I)V" managed_parameters="Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, System.Private.CoreLib" params="android.content.Context p0, android.util.AttributeSet p1, int p2" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+      </constructors>
+    </type>
+    <type name="CameraStateObserver" package="crc64bcce8c39838b345c" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="BarcodeScanning.CameraStateObserver, BarcodeScanning.Native.Maui">
+      <implemented_interfaces>
+        <interface name="androidx.lifecycle.Observer" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="CameraStateObserver" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onChanged" method="n_onChanged:(Ljava/lang/Object;)V:GetOnChanged_Ljava_lang_Object_Handler:AndroidX.Lifecycle.IObserverInvoker, Xamarin.AndroidX.Lifecycle.LiveData.Core" jni_signature="(Ljava/lang/Object;)V" params="java.lang.Object p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+  </jcw-types>
+  <acw-types partial-assembly-name="BarcodeScanning.Native.Maui" module-name="BarcodeScanning.Native.Maui.dll">
+    <type assembly-qualified-name="BarcodeScanning.BarcodeAnalyzer, BarcodeScanning.Native.Maui, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="barcodescanning.BarcodeAnalyzer" java-key="crc64bcce8c39838b345c.BarcodeAnalyzer" managed-key="BarcodeScanning.BarcodeAnalyzer" partial-assembly-qualified-name="BarcodeScanning.BarcodeAnalyzer, BarcodeScanning.Native.Maui" />
+    <type assembly-qualified-name="BarcodeScanning.BarcodeView, BarcodeScanning.Native.Maui, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="barcodescanning.BarcodeView" java-key="crc64bcce8c39838b345c.BarcodeView" managed-key="BarcodeScanning.BarcodeView" partial-assembly-qualified-name="BarcodeScanning.BarcodeView, BarcodeScanning.Native.Maui" />
+    <type assembly-qualified-name="BarcodeScanning.CameraStateObserver, BarcodeScanning.Native.Maui, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="barcodescanning.CameraStateObserver" java-key="crc64bcce8c39838b345c.CameraStateObserver" managed-key="BarcodeScanning.CameraStateObserver" partial-assembly-qualified-name="BarcodeScanning.CameraStateObserver, BarcodeScanning.Native.Maui" />
+  </acw-types>
+</api>

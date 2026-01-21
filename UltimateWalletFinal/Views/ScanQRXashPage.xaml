@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:zxing="clr-namespace:ZXing.Net.Maui.Controls;assembly=ZXing.Net.MAUI.Controls"
+             x:Class="UltimateWalletFinal.Views.ScanQRXashPage"
+             Title="ScanQRXashPage">
+
+    <Grid RowDefinitions="*, Auto">
+        <zxing:CameraBarcodeReaderView
+                x:Name="cameraBarcodeReaderView"
+                BarcodesDetected="OnBarcodeDetected"
+                IsDetecting="True"
+                CameraLocation="Rear"
+                IsEnabled="True"/>
+        <!-- Панель управления -->
+        <VerticalStackLayout VerticalOptions="End"
+                             HorizontalOptions="Fill"
+                             Spacing="15"
+                             Padding="20,0,20,40">
+
+            <!-- Результат сканирования -->
+            <Frame x:Name="resultFrame"
+                   IsVisible="False"
+                   Padding="15"
+                   CornerRadius="15"
+                   BackgroundColor="#E8F5E9">
+                <VerticalStackLayout Spacing="5">
+                    <Label x:Name="resultLabel"
+                           Text=""
+                           FontSize="14"
+                           TextColor="#388E3C" />
+                    <Button x:Name="processButton"
+                            Text="Добавить карту"
+                            Clicked="OnProcessResultClicked"
+                            BackgroundColor="#4CAF50"
+                            TextColor="White"
+                            HeightRequest="40"
+                            CornerRadius="10" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Кнопки управления камерой -->
+            <Grid ColumnDefinitions="*,*,*" ColumnSpacing="20">
+
+                <!-- Фонарик -->
+                <Frame Grid.Column="0"
+                       Padding="15"
+                       CornerRadius="25"
+                       BackgroundColor="#80000000">
+                    <VerticalStackLayout HorizontalOptions="Center">
+                        <Label Text="🔦"
+                               FontSize="20"
+                               HorizontalOptions="Center" />
+                        <Switch x:Name="torchToggle"
+                                IsToggled="False"
+                                HorizontalOptions="Center"
+                                OnColor="#4CAF50" />
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Кнопка сканирования -->
+                <Frame Grid.Column="1"
+                       Padding="20"
+                       CornerRadius="35"
+                       BackgroundColor="#2196F3">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnManualScanTapped" />
+                    </Frame.GestureRecognizers>
+                    <Label Text="📷"
+                           FontSize="30"
+                           TextColor="White"
+                           HorizontalOptions="Center" />
+                </Frame>
+
+                <!-- Переключение камеры -->
+                <Frame Grid.Column="2"
+                       Padding="15"
+                       CornerRadius="25"
+                       BackgroundColor="#80000000">
+                    <VerticalStackLayout HorizontalOptions="Center">
+                        <Label Text="🔄"
+                               FontSize="20"
+                               HorizontalOptions="Center" />
+                        <Button Text="Камера"
+                                Clicked="OnSwitchCameraClicked"
+                                BackgroundColor="Transparent"
+                                TextColor="White"
+                                FontSize="12"
+                                Padding="0" />
+                    </VerticalStackLayout>
+                </Frame>
+
+            </Grid>
+
+            <!-- Ручной ввод -->
+            <Button Text="📝 Ввести вручную"
+                    Clicked="OnManualInputClicked"
+                    BackgroundColor="#FF9800"
+                    TextColor="White"
+                    CornerRadius="10"
+                    HeightRequest="45"
+                    FontSize="14" />
+
+        </VerticalStackLayout>
+
+        <!-- Индикатор загрузки -->
+        <ActivityIndicator x:Name="loadingIndicator"
+                           IsVisible="False"
+                           IsRunning="False"
+                           Color="#2196F3"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" />
+
+    </Grid>
+
+</ContentPage>

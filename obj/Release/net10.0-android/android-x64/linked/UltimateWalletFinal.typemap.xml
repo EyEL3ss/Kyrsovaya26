@@ -1,0 +1,8 @@
+<api type="release" assembly-name="UltimateWalletFinal" mvid="da9d0cb0428047c49416d70d2a9198c2">
+  <module assembly-name="UltimateWalletFinal" mvid="da9d0cb0428047c49416d70d2a9198c2" mvid-bytes="sAyd2oBCxEeUFtcNKpGYwg==">
+    <types-scratch>
+      <entry key="crc64583b27beb74af6a7/MainActivity" java-name="crc64583b27beb74af6a7/MainActivity" managed-type-name="UltimateWalletFinal.MainActivity" token="33554502" />
+      <entry key="crc64583b27beb74af6a7/MainApplication" java-name="crc64583b27beb74af6a7/MainApplication" managed-type-name="UltimateWalletFinal.MainApplication" token="33554503" />
+    </types-scratch>
+  </module>
+</api>

@@ -1,0 +1,12 @@
+<api type="debug" assembly-name="BarcodeScanning.Native.Maui" mvid="53123660ed0f4f8fbd6ac73c2dc0f532">
+  <java-to-managed>
+    <entry java-name="crc64bcce8c39838b345c/BarcodeAnalyzer" managed-name="BarcodeScanning.BarcodeAnalyzer, BarcodeScanning.Native.Maui" managed-type-token-id="33554437" />
+    <entry java-name="crc64bcce8c39838b345c/BarcodeView" managed-name="BarcodeScanning.BarcodeView, BarcodeScanning.Native.Maui" managed-type-token-id="33554438" />
+    <entry java-name="crc64bcce8c39838b345c/CameraStateObserver" managed-name="BarcodeScanning.CameraStateObserver, BarcodeScanning.Native.Maui" managed-type-token-id="33554440" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc64bcce8c39838b345c/BarcodeAnalyzer" managed-name="BarcodeScanning.BarcodeAnalyzer, BarcodeScanning.Native.Maui" managed-type-token-id="33554437" />
+    <entry java-name="crc64bcce8c39838b345c/BarcodeView" managed-name="BarcodeScanning.BarcodeView, BarcodeScanning.Native.Maui" managed-type-token-id="33554438" />
+    <entry java-name="crc64bcce8c39838b345c/CameraStateObserver" managed-name="BarcodeScanning.CameraStateObserver, BarcodeScanning.Native.Maui" managed-type-token-id="33554440" />
+  </managed-to-java>
+</api>

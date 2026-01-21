@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UltimateWalletFinal.Views.AddCardFromScanPage"
+             Title="AddCardFromScanPage">
+    <ScrollView>
+        <VerticalStackLayout Spacing="15" Padding="20">
+
+            <!-- Информация о скане -->
+            <Frame Padding="15" CornerRadius="15"
+                   BackgroundColor="#E3F2FD">
+                <VerticalStackLayout Spacing="5">
+                    <Label x:Name="userGreetingLabel"
+       FontSize="14"
+       TextColor="#1565C0" />
+                    <Label Text="📷 Сканировано"
+                           FontSize="16"
+                           FontAttributes="Bold"
+                           TextColor="#1565C0" />
+                    <Label Text="{Binding ScanResult.CodeType}"
+                           FontSize="12"
+                           TextColor="#1976D2" />
+                    <Label Text="{Binding ScanResult.ScanTime, StringFormat='Время: {0:HH:mm}'}"
+                           FontSize="11"
+                           TextColor="#64B5F6" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Форма с предзаполненными данными -->
+            <Frame Padding="15" CornerRadius="15"
+                   BackgroundColor="#F5F5F5">
+                <VerticalStackLayout Spacing="12">
+
+                    <!-- Название карты -->
+                    <Label Text="Название карты" FontSize="14" />
+                    <Entry x:Name="cardNameEntry" 
+                           Text="{Binding SuggestedCardName}"
+                           Placeholder="Название карты" />
+
+                    <!-- Номер карты -->
+                    <Label Text="Номер карты" FontSize="14" Margin="0,10,0,0" />
+                    <Entry x:Name="cardNumberEntry" 
+                           Text="{Binding CardNumber}"
+                           IsReadOnly="True"
+                           BackgroundColor="#EEEEEE" />
+
+                    <Button Text="✏️ Редактировать номер"
+                            Clicked="OnEditNumberClicked"
+                            BackgroundColor="Transparent"
+                            TextColor="#2196F3"
+                            FontSize="12"
+                            HorizontalOptions="Start" />
+                    <Label Text="CVV карты" FontSize="14" Margin="0,10,0,0" />
+                    <Label Text="CVV/CVC" FontSize="14" Margin="0,10,0,0" />
+                    <Entry x:Name="cardCvEntry" 
+       Placeholder="XXX"
+       Keyboard="Numeric"
+       MaxLength="4"
+       IsPassword="True" />
+                    <!-- Магазин -->
+                    <Label Text="Магазин" FontSize="14" Margin="0,10,0,0" />
+                    <Picker x:Name="shopPicker"
+                            Title="Выберите магазин"
+                            ItemDisplayBinding="{Binding ShopName}" />
+
+                    <!-- Категория -->
+                    <Label Text="Категория" FontSize="14" Margin="0,10,0,0" />
+                    <Picker x:Name="categoryPicker"
+                            Title="Выберите категорию"
+                            ItemDisplayBinding="{Binding CategoryName}" />
+                    <Label Text="Ссылка на изображение (опционально)" 
+       FontSize="14" 
+       Margin="0,10,0,0" />
+                    <Entry x:Name="imageUrlEntry" 
+       Placeholder="https://example.com/card.png"
+       Keyboard="Url" />
+                    <!-- Дополнительные данные из скана -->
+                    <Frame x:Name="extraDataFrame"
+                           IsVisible="False"
+                           Padding="10"
+                           CornerRadius="10"
+                           BackgroundColor="#FFF3E0"
+                           Margin="0,10,0,0">
+                        <VerticalStackLayout>
+                            <Label Text="📊 Дополнительные данные из кода:"
+                                   FontSize="12"
+                                   FontAttributes="Bold"
+                                   TextColor="#EF6C00" />
+                            <Label x:Name="extraDataLabel"
+                                   FontSize="11"
+                                   TextColor="#F57C00" />
+                        </VerticalStackLayout>
+                    </Frame>
+
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Кнопки -->
+            <Grid ColumnDefinitions="*,*" 
+                  ColumnSpacing="10"
+                  Margin="0,20,0,0">
+
+                <Button Text="✅ Сохранить"
+                        Clicked="OnSaveClicked"
+                        BackgroundColor="#4CAF50"
+                        TextColor="White"
+                        CornerRadius="10"
+                        HeightRequest="50"
+                        FontSize="16" />
+            </Grid>
+
+            <Button Text="📷 Сделать фото карты"
+                    Clicked="OnTakePhotoClicked"
+                    BackgroundColor="#FF9800"
+                    TextColor="White"
+                    CornerRadius="10"
+                    HeightRequest="45"
+                    FontSize="14"
+                    Margin="0,10,0,0" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
